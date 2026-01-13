@@ -1,0 +1,33 @@
+.btn {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #6366f1, #a78bfa);
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(99, 102, 241, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background: linear-gradient(135deg, #6366f1, #a78bfa);
+  border-radius: 12px;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(99, 102, 241, 0.5);
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #6366f1, #a78bfa);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(99, 102, 241, 0.5);
+  opacity: 1;
+  transform: translateY(20px) scale(0.95);
+  transition: all 0.3s ease;
+}
